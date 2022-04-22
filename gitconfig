@@ -1,2 +1,5 @@
 [init]
 	defaultBranch = main
+[user]
+	email = lucas.meyer@microsoft.com
+	name = Lucas Meyer
