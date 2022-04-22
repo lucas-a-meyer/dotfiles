@@ -1,1 +1,1 @@
-alias act='source .env/bin/activate'
+alias act='source .venv/bin/activate'
