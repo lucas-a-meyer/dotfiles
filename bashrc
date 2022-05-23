@@ -115,14 +115,29 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+if [ "$HOSTNAME" = "370e145d467d" ]; then
+    eval "$(command conda shell.bash hook 2> /dev/null)"
 
-# Splash screen, just for fun
-if command -v neofetch > /dev/null; then
-    neofetch
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/opt/conda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
+    else
+        if [ -f "/opt/conda/etc/profile.d/conda.sh" ]; then
+            . "/opt/conda/etc/profile.d/conda.sh"
+        else
+            export PATH="/opt/conda/bin:$PATH"
+        fi
+    fi
+    unset __conda_setup
+    # <<< conda initialize <<<
+    echo "Ran conda initialize"
+else
+    # Fortune, for tradition
+    if command -v fortune > /dev/null; then
+        fortune
+    fi
 fi
 
-# Fortune, for tradition
-if command -v fortune > /dev/null; then
-    fortune
-fi
 
