@@ -3,3 +3,5 @@
 [user]
 	email = lucas.meyer@microsoft.com
 	name = Lucas Meyer
+[pull]
+	rebase = false
