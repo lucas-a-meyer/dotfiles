@@ -139,11 +139,6 @@ if [ "$HOSTNAME" = "370e145d467d" ]; then
     # fi
     # unset __conda_setup
     # # <<< conda initialize <<<
-else
-    # Fortune, for tradition
-    if command -v fortune > /dev/null; then
-        fortune
-    fi
 fi
 
 
