@@ -6,9 +6,12 @@ I'm writing these instructions mostly for my own use. These are based mainly on 
 ## Installing dotfiles in a new environment
 
 The command to install my dotfiles on a new environment is:
+
 `git clone $repo --recursive && cd dotfiles && ./install`
 
-Unless you're me, your `$repo` variable should point to your own repository. My repository can be set with `export repo=git@github.com:lucas-a-meyer/dotfiles.git`. 
+Unless you're me, your `$repo` variable should point to your own repository. My repository can be set with:
+
+ `export repo=git@github.com:lucas-a-meyer/dotfiles.git`
 
 ## Configuration
 
