@@ -5,3 +5,5 @@
 	name = Lucas Meyer
 [pull]
 	rebase = false
+[status]
+	showUntrackedFiles = all
