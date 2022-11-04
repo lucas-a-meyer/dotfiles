@@ -1,0 +1,2 @@
+Write-Output "Using Lucas Meyer's profile from dotfiles/powershell_profile"
+New-Alias -Name act -Value .venv/Scripts/activate.ps1

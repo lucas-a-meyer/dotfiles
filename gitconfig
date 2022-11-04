@@ -5,5 +5,9 @@
 	name = Lucas Meyer
 [pull]
 	rebase = false
+[push]
+	autoSetupRemote = true
 [status]
 	showUntrackedFiles = all
+[core]
+	safecrlf = false
