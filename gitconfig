@@ -11,3 +11,7 @@
 	showUntrackedFiles = all
 [core]
 	safecrlf = false
+[safe]
+	directory = C:/Users/lucasmeyer/msft/github.uruguay-innovation
+[credential "https://huggingface.co"]
+	provider = generic
