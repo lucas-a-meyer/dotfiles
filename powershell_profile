@@ -1,4 +1,8 @@
 Write-Output "Using Lucas Meyer's profile from dotfiles/powershell_profile"
 New-Alias -Name act -Value .venv/Scripts/activate.ps1
+New-Alias -Name codi -Value code-insiders
 
+function itoolbox {
+    pip install git+https://github.com/lucas-a-meyer/lucas-toolbox.git --upgrade
+}
 function Set-DotEnv {New-Item -ItemType SymbolicLink -Path ".env" -Target "C:\Users\lucasmeyer\secrets\env"}
