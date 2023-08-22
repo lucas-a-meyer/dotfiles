@@ -8,7 +8,8 @@
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
     ~/.bash_aliases: bash_aliases
-    D:\OneDriveWork\OneDrive - Microsoft\Documents\WindowsPowerShell\Profile.ps1: powershell_profile
+    C:\Users\lucasmeyer\OneDrive - Microsoft\Documents\PowerShell\Microsoft.PowerShell_profile.ps1: powershell_profile
+    C:\Users\lucasmeyer\OneDrive - Microsoft\Documents\WindowsPowerShell\Profile.ps1: powershell_profile
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
