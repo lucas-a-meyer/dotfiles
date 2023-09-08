@@ -2,9 +2,11 @@ Write-Output "Using Lucas Meyer's profile from dotfiles/powershell_profile"
 New-Alias -Name act -Value .venv/Scripts/activate.ps1
 New-Alias -Name codi -Value code-insiders
 
+# function to install my programming toolbox
 function itoolbox {
     pip install git+https://github.com/lucas-a-meyer/lucas-toolbox.git --upgrade
 }
+# function to link a .env to the generic one in my secrets folder
 function Set-DotEnv {New-Item -ItemType SymbolicLink -Path ".env" -Target "C:\Users\lucasmeyer\secrets\env"}
 
 # function to query cosmos job with one parameter: Status
