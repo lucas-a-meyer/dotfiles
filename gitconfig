@@ -11,6 +11,7 @@
 	showUntrackedFiles = all
 [core]
 	safecrlf = false
+	editor = \"C:\\Users\\lucasmeyer\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin\\code-insiders\" --wait
 [safe]
 	directory = C:/Users/lucasmeyer/msft/github.uruguay-innovation
 [credential "https://huggingface.co"]

@@ -10,6 +10,11 @@
     ~/.bash_aliases: bash_aliases
     C:\Users\lucasmeyer\OneDrive - Microsoft\Documents\PowerShell\Microsoft.PowerShell_profile.ps1: powershell_profile
     C:\Users\lucasmeyer\OneDrive - Microsoft\Documents\WindowsPowerShell\Profile.ps1: powershell_profile
+    ~/.ssh/id_ed25519: ~/secrets/id_ed25519
+    ~/.ssh/id_ed25519.pub: ~/secrets/id_ed25519.pub
+    ~/.ssh/id_rsa: ~/secrets/id_rsa
+    ~/.ssh/id_rsa.pub: ~/secrets/id_rsa.pub
+    ~/.env: ~/secrets/env
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
