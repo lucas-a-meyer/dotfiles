@@ -6,6 +6,9 @@ $DOTBOT_DIR = "dotbot"
 $DOTBOT_BIN = "bin/dotbot"
 $BASEDIR = $PSScriptRoot
 
+$hostn = HOSTNAME
+Write-Output $hostn
+
 Set-Location $BASEDIR
 git -C $DOTBOT_DIR submodule sync --quiet --recursive
 git submodule update --init --recursive $DOTBOT_DIR
