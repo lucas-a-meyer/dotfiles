@@ -11,8 +11,17 @@
 	showUntrackedFiles = all
 [core]
 	safecrlf = false
-	editor = \"C:\\Users\\lucasmeyer\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin\\code-insiders\" --wait
+	editor = \"C:\\Users\\lucasmeyer\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
 [safe]
 	directory = C:/Users/lucasmeyer/msft/github.uruguay-innovation
 [credential "https://huggingface.co"]
 	provider = generic
+[credential]
+	azreposCredentialType = oauth
+	msauthUseBroker = true
+	msauthUseDefaultAccount = true
+[credential "azrepos:org/oneCELA"]
+	azureAuthority = https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47
+	username = lucasmeyer@microsoft.com
+[credential "azrepos:org/onecela"]
+	username = lucasmeyer@microsoft.com
