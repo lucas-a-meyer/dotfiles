@@ -14,16 +14,12 @@
     # C:\Users\lucasmeyer\OneDrive - Microsoft\Documents\WindowsPowerShell\Profile.ps1: 
     #   if: ls
     #   path: powershell_profile
-    D:\OneDriveWork\OneDrive - Microsoft\Documents\PowerShell\Microsoft.PowerShell_profile.ps1: 
+    D:\OneDriveWork\OneDrive - Microsoft\Documents\PowerShell\Microsoft.PowerShell_profile.ps1:
 #      if: 
       path: powershell_profile
-    D:\OneDriveWork\OneDrive - Microsoft\Documents\WindowsPowerShell\Profile.ps1: 
-#      if: $hostn -eq "LUCASMEYERP15G2"
-      path: powershell_profile
-    ~/.ssh/id_ed25519: ~/secrets/id_ed25519
-    ~/.ssh/id_ed25519.pub: ~/secrets/id_ed25519.pub
-    ~/.ssh/id_rsa: ~/secrets/id_rsa
-    ~/.ssh/id_rsa.pub: ~/secrets/id_rsa.pub
+#     D:\OneDriveWork\OneDrive - Microsoft\Documents\WindowsPowerShell\Profile.ps1: 
+# #      if: $hostn -eq "LUCASMEYERP15G2"
+#       path: powershell_profile
     ~/.env: ~/secrets/env
 
 - shell:

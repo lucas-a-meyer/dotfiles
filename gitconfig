@@ -14,6 +14,7 @@
 	editor = \"C:\\Users\\lucasmeyer\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
 [safe]
 	directory = C:/Users/lucasmeyer/msft/github.uruguay-innovation
+	directory = C:/Users/lucasmeyer/dotfiles
 [credential "https://huggingface.co"]
 	provider = generic
 [credential]
@@ -25,3 +26,6 @@
 	username = lucasmeyer@microsoft.com
 [credential "azrepos:org/onecela"]
 	username = lucasmeyer@microsoft.com
+[safe]
+	directory = C:/Users/lucasmeyer/dotfiles/dotbot
+	directory = C:/Users/lucasmeyer/dotfiles	
